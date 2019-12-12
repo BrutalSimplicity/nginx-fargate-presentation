@@ -16,13 +16,33 @@ Serving S3 Assets via Nginx and Fargate
 
 ---
 
-@ul
-- Why
+Rationale
 
-- What
+---
 
-- How
-@ulend
+# Why
+
+- Performance
+- Configurability
+
+---
+
+What
+
+- Nginx
+- Docker
+- Fargate
+- Aws Infrastructure (VPC Endpoint, Load Balancers, Route53)
+
+---
+
+How
+
+- Nginx for ultra-configurability and performance
+- Containers for hosting nginx via fargate (added benefit of CI/CD)
+- Fargatge for Scale
+- VPC and VPC Endpoints for fine-grained access control
+- AWS CDK to provision fargate and "plugin" to the existing infrastructure
 
 --- 
 
@@ -30,14 +50,20 @@ Nginx
 
 ---
 
-Contexts
+# Basic Config
 
-- Events
-
-
-
-- Server
-- Http
-- Location
+---?code=assets/code/basic-nginx-main.conf
 
 ---
+
+# Docker
+
+Basic example using Nginx
+
+---
+
+# Full Example
+
+AWS CDK + Cloudformation + Nginx + Docker
+
+All the Things!!!
