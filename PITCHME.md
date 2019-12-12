@@ -4,15 +4,15 @@ Serving S3 Assets via Nginx and Fargate
 
 ---
 
-# Before
+Before
 
-[Before](assets/images/arch-diagram-before.png)
+![Before](assets/images/arch-diagram-before.png)
 
 ---
 
-# Redesign
+Redesign
 
-[Redesign](assets/images/arch-diagram.png)
+![Redesign](assets/images/arch-diagram.png)
 
 ---
 
@@ -20,7 +20,7 @@ Rationale
 
 ---
 
-# Why
+Why
 
 - Performance
 - Configurability
@@ -50,11 +50,13 @@ Nginx
 
 ---
 
-# Basic Config
+Basic Config
 
 ---?code=assets/code/basic-nginx-main.conf
 
----
+---?code=assets/code/basic-nginx-http.conf
+
+---?code=assets/code/basic-nginx-server.conf
 
 # Docker
 
