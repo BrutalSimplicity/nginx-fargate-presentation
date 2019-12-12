@@ -1,6 +1,18 @@
 --- 
 
-Serving S3 Assets via Nginx and Fargate (Pt. 1)
+Serving S3 Assets via Nginx and Fargate
+
+---
+
+# Before
+
+[Before](assets/images/arch-diagram-before.png)
+
+---
+
+# Redesign
+
+[Redesign](assets/images/arch-diagram.png)
 
 ---
 
@@ -21,12 +33,11 @@ Nginx
 Contexts
 
 - Events
+
+
+
 - Server
 - Http
 - Location
 
 ---
-
-Basic Configuration
-
----?code=assets/code/basic-nginx-config
