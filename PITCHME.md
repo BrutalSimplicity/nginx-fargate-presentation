@@ -54,11 +54,7 @@ Basic Config
 
 ---?code=assets/code/basic-nginx-main.conf
 
----
-
 ---?code=assets/code/basic-nginx-http.conf
-
----
 
 ---?code=assets/code/basic-nginx-server.conf
 
