@@ -54,17 +54,23 @@ Basic Config
 
 ---?code=assets/code/basic-nginx-main.conf
 
+---
+
 ---?code=assets/code/basic-nginx-http.conf
+
+---
 
 ---?code=assets/code/basic-nginx-server.conf
 
-# Docker
+---
+
+Docker
 
 Basic example using Nginx
 
 ---
 
-# Full Example
+Full Example
 
 AWS CDK + Cloudformation + Nginx + Docker
 
